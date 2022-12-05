@@ -1,0 +1,9 @@
+Host biswajit-selise
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/biswajit-selise
+
+Host jfbiswajit
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/jfbiswajit
