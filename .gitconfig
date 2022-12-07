@@ -9,5 +9,5 @@
     cm = !git add . && git commit -m
     sw = switch
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    pp = !git pull origin $(git branch --show-current) && git pull origin $(git branch --show-current)
+    pp = !git pull origin $(git branch --show-current) && git push origin $(git branch --show-current)
     br = branch
