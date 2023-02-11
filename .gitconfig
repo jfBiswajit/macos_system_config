@@ -12,3 +12,5 @@
   pp = !git pull origin $(git branch --show-current) && git push origin $(git branch --show-current)
   br = branch
 	amd = !git add . && git commit --amend --no-edit
+[core]
+  editor = nano
