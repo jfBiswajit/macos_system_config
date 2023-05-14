@@ -1,9 +1,5 @@
-# Brew
-export PATH=/opt/homebrew/bin:$PATH
-# Laravel valet
-export PATH=$PATH:~/.composer/vendor/bin
 # Zsh terminal short name
-PS1="%F{cyan}%n%f$ "
+PS1="%B%F{green}%n@MacBook%f$%b "
 # Remove duplicate lines from the terminal
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_IGNORE_DUPS
