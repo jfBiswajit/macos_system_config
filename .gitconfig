@@ -12,7 +12,8 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   br = branch
 	amd = !git add . && git commit --amend --no-edit
-  pp = !git add . && git commit -m "\"chore: Quick updates and sync\"" && git push origin HEAD
+  cp = !git add . && git commit -m "\"chore: Quick updates and sync\"" && git push origin HEAD
+  po = push origin HEAD
 
 [core]
   editor = nano
