@@ -7,13 +7,13 @@
   st = status
   rs = !git reset --hard && git clean -fd
   cm = !git add . && git commit -m
-  gtc = reset --merge
+  mr = reset --merge
   sw = switch
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   br = branch
-	amd = !git add . && git commit --amend --no-edit
-  cp = !git add . && git commit -m "\"chore: Quick updates and sync\"" && git push origin HEAD
+  us = !git add . && git commit -m "\"chore: Quick updates and sync\"" && git push origin HEAD
   po = push origin HEAD
+	am = !git add . && git commit --amend -m
 
 [core]
   editor = nano
