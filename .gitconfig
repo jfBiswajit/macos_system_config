@@ -17,5 +17,6 @@
 
 [core]
   editor = nano
+
 [init]
   defaultBranch = master
