@@ -13,10 +13,10 @@
   br = branch
   us = !git add . && git commit -m "\"chore: Quick updates and sync\"" && git push origin HEAD
   po = push origin HEAD
-  am = !git add . && git commit --amend -m
+	am = !git add . && git commit --amend -m
 
 [core]
   editor = nano
-
+  
 [init]
-  defaultBranch = master
+  defaultBranch = main
